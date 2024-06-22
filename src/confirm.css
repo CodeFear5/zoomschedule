@@ -1,0 +1,31 @@
+/* src/Confirmation.css */
+.confirmation {
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .confirmation h2 {
+    margin-bottom: 20px;
+  }
+  
+  .confirmation p {
+    margin: 10px 0;
+  }
+  
+  .join-button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .join-button:hover {
+    background-color: #218838;
+  }
+  
