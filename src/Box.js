@@ -3,6 +3,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Box.css';
 import  myimage from './zoomlogo.jpeg'
+import Navbar from './navbar';
 
 const Box = () => {
   const navigate = useNavigate();
@@ -12,7 +13,12 @@ const Box = () => {
   };
 
   return (
-    <div className="box">
+    <div>
+
+
+<Navbar />
+<div className="box">
+
       <img
         src={myimage}
         alt="Zoom Meeting"
@@ -22,6 +28,8 @@ const Box = () => {
         Schedule a Meeting
       </button>
     </div>
+    </div>
+   
   );
 };
 

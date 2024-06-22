@@ -1,11 +1,17 @@
 /* ./Box.css */
 
+
+body{
+  background-color: #464557;;
+}
 .box {
     width: 300px;
     border: 1px solid #ccc;
     padding: 20px;
     text-align: center;
     margin: 20px auto;
+
+     
   }
   
   .zoom-image {
