@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import {useNavigate} from 'react-router-dom'
-
+import Navbar from './navbar'
 import './shedule.css'
 const SheduleForm=()=>{
 
@@ -22,8 +22,10 @@ const SheduleForm=()=>{
 
 
 return(
-
-    <div className="schedule">
+    
+<div>
+<Navbar />
+<div className="schedule">
 <h2>shedule a meeting</h2>
 
 <form onSubmit={handleSubmit}>
@@ -90,6 +92,8 @@ required
 
 
     </div>
+</div>
+   
 )
 
 

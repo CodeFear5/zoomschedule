@@ -1,6 +1,7 @@
 
 import { useNavigate,useLocation} from  'react-router-dom';
 import './confirm.css'
+import Navbar from './navbar';
 const Confirmation=()=>{
 const navigate=useNavigate();
 const location=useLocation();
@@ -19,6 +20,8 @@ return(
 
     
 
+    <div>
+    <Navbar />
     <div className='confirmation'> 
     
 
@@ -32,7 +35,7 @@ return(
 
         
         
-           </div>
+           </div></div>
 )
 
 

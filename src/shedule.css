@@ -1,10 +1,11 @@
 /* src/Schedule.css */
 .schedule {
     width: 400px;
-    margin: 50px auto;
+    margin: 90px auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
+ 
   }
   
   .schedule h2 {
